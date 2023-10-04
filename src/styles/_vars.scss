@@ -1,0 +1,12 @@
+@use 'sass:color';
+
+$color: #3e7fb7;
+$color-dark: color.scale($color, $lightness: -50%);
+$color-light: color.scale($color, $lightness: 70%);
+
+$color-black: #333;
+$color-white: #fff;
+
+$gutter: 1rem;
+
+$form-height: 4rem;

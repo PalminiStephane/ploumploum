@@ -1,0 +1,17 @@
+@use '../../styles/vars' as v;
+.ploumploum{
+  background: v.$color-light;
+  color: v.$color-dark;
+  font-size: 2em;
+  border: 5px solid v.$color-black;
+  padding: 2rem;
+  border-radius: 30px;
+  margin: 2rem 0;
+
+  &:hover {
+    background: v.$color-dark;
+    color: v.$color-light;
+    border-color: v.$color-white;;
+  }
+}
+

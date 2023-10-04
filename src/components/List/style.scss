@@ -1,0 +1,12 @@
+@use '../../styles/vars' as v;
+.list-item {
+  display: block;
+  background: v.$color-white;
+  border-radius: 30px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  color: v.$color-dark;
+}
+.list-item:hover {
+  background: v.$color-light;
+}
