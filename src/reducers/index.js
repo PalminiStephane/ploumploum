@@ -4,16 +4,7 @@ import {
 import { getNextId } from '../selectors';
 
 const initialState = {
-  players: [
-    {
-      id: 1,
-      player: 'Joueur 1',
-    },
-    {
-      id: 2,
-      player: 'Joueur 2',
-    },
-  ],
+  players: [],
 };
 
 function reducer(state = initialState, action = {}) {
