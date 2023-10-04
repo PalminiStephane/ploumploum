@@ -10,7 +10,7 @@ function Counter() {
     sentence = 'Aucun joueur en jeu...';
   }
   else if (count === 1) {
-    sentence = '1 joueur en jeu';
+    sentence = 'Il manque encore un joueur...';
   }
   else {
     sentence = `${count} joueurs en jeu`;
