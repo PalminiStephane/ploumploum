@@ -1,17 +1,16 @@
 import Form from 'src/components/Form';
 import Counter from 'src/components/Counter';
-import List from 'src/components/List';
-
+import Players from 'src/components/Players';
 import Ploumploum from 'src/components/Ploumploum';
 
 import './styles.scss';
 
 function App() {
   return (
-    <div className="app">
+    <div className="App">
       <Form />
       <Counter />
-      <List />
+      <Players />
       <Ploumploum />
     </div>
   );

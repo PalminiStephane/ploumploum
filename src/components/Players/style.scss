@@ -1,5 +1,5 @@
 @use '../../styles/vars' as v;
-.list-item {
+.Players-item {
   display: block;
   background: v.$color-white;
   border-radius: 30px;
@@ -7,6 +7,6 @@
   margin: 0.5rem 0;
   color: v.$color-dark;
 }
-.list-item:hover {
+.Players-item:hover {
   background: v.$color-light;
 }
