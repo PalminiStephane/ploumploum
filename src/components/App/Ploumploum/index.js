@@ -12,7 +12,7 @@ function Ploumploum() {
   // Je choisi un joueur au hasard
   const handleClick = (event) => {
     const randomPlayer = players[Math.floor(Math.random() * players.length)];
-    console.log(randomPlayer);
+    console.log(`Ploum-Ploum ! ${randomPlayer.player} a gagné !`);
   };
   return (
     <button
