@@ -1,7 +1,7 @@
-import Form from 'src/components/Form';
-import Counter from 'src/components/Counter';
-import Players from 'src/components/Players';
-import Ploumploum from 'src/components/Ploumploum';
+import Form from './Form';
+import Counter from './Counter';
+import Players from './Players';
+import Ploumploum from './Ploumploum';
 
 import './styles.scss';
 

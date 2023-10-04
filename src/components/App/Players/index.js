@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 import PlayersItem from './PlayersItem';
 
-import { getPlayers } from '../../selectors';
+import { getPlayers } from '../../../selectors';
 
 import './style.scss';
 
