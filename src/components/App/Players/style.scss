@@ -6,7 +6,18 @@
   padding: 1rem;
   margin: 0.5rem 0;
   color: v.$color-dark;
+  font-size: 1.5rem;
+
+  &-button {
+    display: line;
+    margin: 0 0.5rem;
+    background-color: v.$color-light;
+    border: 1px solid v.$color-dark;
+    height: 100%;
+    outline: none;
+    color: v.$color;
+    font-weight: 700;
+    width: v.$form-height;
+  }
 }
-.Players-item:hover {
-  background: v.$color-light;
-}
+
