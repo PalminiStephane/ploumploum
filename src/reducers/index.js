@@ -33,7 +33,19 @@ function reducer(state = initialState, action = {}) {
         players: updatedPlayers,
       };
     }
-
+    case 'SUPP_PLAYER': {
+      // On récupère le joueur à supprimer
+      const { id } = payload;
+      // On filtre la liste des joueurs pour ne garder que ceux dont l'id est
+      // différent de celui du joueur à supprimer
+      const updatedPlayers = state.players.filter((p) => p.id !== id);
+      console.log(id);
+      // On retourne le nouveau state
+      return {
+        ...state,
+        players: updatedPlayers,
+      };
+    }
     default:
       return state;
   }

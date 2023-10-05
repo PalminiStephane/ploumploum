@@ -6,3 +6,12 @@ export function playerAdd(inputValue) {
     payload: { inputValue },
   };
 }
+
+export const SUPP_PLAYER = 'SUPP_PLAYER';
+
+export function playerSupp(id) {
+  return {
+    type: SUPP_PLAYER,
+    payload: { id },
+  };
+}
